@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\bin\Debug\Parcial_Nro_3.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\bin\Debug\Parcial_Nro_3.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\bin\Debug\Parcial_Nro_3.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\obj\Debug\Parcial_Nro_3.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\obj\Debug\Parcial_Nro_3.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Nro_3\Parcial_Nro_3\obj\Debug\Parcial_Nro_3.pdb

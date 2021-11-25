@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\obj\Debug\Ejemplo_Polimorfismo.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\bin\Debug\Ejemplo_Polimorfismo.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\bin\Debug\Ejemplo_Polimorfismo.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\bin\Debug\Ejemplo_Polimorfismo.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\obj\Debug\Ejemplo_Polimorfismo.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Polimorfismo\Ejemplo_Polimorfismo\obj\Debug\Ejemplo_Polimorfismo.pdb

@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\bin\Debug\Práctica 5 Ej 1.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\bin\Debug\Práctica 5 Ej 1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\bin\Debug\Práctica 5 Ej 1.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\obj\Debug\Práctica 5 Ej 1.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\obj\Debug\Práctica 5 Ej 1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica 5 Ej 1\Práctica 5 Ej 1\obj\Debug\Práctica 5 Ej 1.pdb

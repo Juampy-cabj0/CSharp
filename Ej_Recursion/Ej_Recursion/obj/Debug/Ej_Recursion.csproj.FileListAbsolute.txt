@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\bin\Debug\Ej_Recursion.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\bin\Debug\Ej_Recursion.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\bin\Debug\Ej_Recursion.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\obj\Debug\Ej_Recursion.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\obj\Debug\Ej_Recursion.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Recursion\Ej_Recursion\obj\Debug\Ej_Recursion.pdb

@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\obj\Debug\Parcial_Inmobiliaria.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\bin\Debug\Parcial_Inmobiliaria.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\bin\Debug\Parcial_Inmobiliaria.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\bin\Debug\Parcial_Inmobiliaria.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\obj\Debug\Parcial_Inmobiliaria.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_Inmobiliaria\Parcial_Inmobiliaria\obj\Debug\Parcial_Inmobiliaria.pdb

@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recuperatorio", "Recuperatorio\Recuperatorio.csproj", "{6DC73E7B-918B-4101-A290-0CF3C0AB566D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DC73E7B-918B-4101-A290-0CF3C0AB566D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC73E7B-918B-4101-A290-0CF3C0AB566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC73E7B-918B-4101-A290-0CF3C0AB566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC73E7B-918B-4101-A290-0CF3C0AB566D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\bin\Debug\Ej_Exception.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\bin\Debug\Ej_Exception.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\bin\Debug\Ej_Exception.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\obj\Debug\Ej_Exception.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\obj\Debug\Ej_Exception.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Exception\Ej_Exception\obj\Debug\Ej_Exception.pdb

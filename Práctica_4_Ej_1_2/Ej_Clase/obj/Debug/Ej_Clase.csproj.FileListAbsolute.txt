@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\bin\Debug\Ej_Clase.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\bin\Debug\Ej_Clase.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\bin\Debug\Ej_Clase.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\obj\Debug\Ej_Clase.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\obj\Debug\Ej_Clase.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Clase\Ej_Clase\obj\Debug\Ej_Clase.pdb

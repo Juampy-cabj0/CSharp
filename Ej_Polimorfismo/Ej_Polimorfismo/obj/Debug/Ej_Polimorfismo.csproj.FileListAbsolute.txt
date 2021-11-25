@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\bin\Debug\Ej_Polimorfismo.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\bin\Debug\Ej_Polimorfismo.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\bin\Debug\Ej_Polimorfismo.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\obj\Debug\Ej_Polimorfismo.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\obj\Debug\Ej_Polimorfismo.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ej_Polimorfismo\Ej_Polimorfismo\obj\Debug\Ej_Polimorfismo.pdb

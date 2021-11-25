@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\bin\Debug\Ejemplo_Class.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\bin\Debug\Ejemplo_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\bin\Debug\Ejemplo_Class.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\obj\Debug\Ejemplo_Class.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\obj\Debug\Ejemplo_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Ejemplo_Class\Ejemplo_Class\obj\Debug\Ejemplo_Class.pdb

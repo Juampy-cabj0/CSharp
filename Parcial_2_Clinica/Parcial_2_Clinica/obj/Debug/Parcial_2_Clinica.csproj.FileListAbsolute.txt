@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\obj\Debug\Parcial_2_Clinica.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\bin\Debug\Parcial_2_Clinica.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\bin\Debug\Parcial_2_Clinica.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\bin\Debug\Parcial_2_Clinica.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\obj\Debug\Parcial_2_Clinica.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Parcial_2_Clinica\Parcial_2_Clinica\obj\Debug\Parcial_2_Clinica.pdb

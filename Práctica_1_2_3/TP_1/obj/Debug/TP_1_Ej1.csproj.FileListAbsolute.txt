@@ -1,0 +1,12 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\bin\Debug\TP_1_Ej1.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\bin\Debug\TP_1_Ej1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\bin\Debug\TP_1_Ej1.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\obj\Debug\TP_1_Ej1.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\obj\Debug\TP_1_Ej1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1\obj\Debug\TP_1_Ej1.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\bin\Debug\TP_1_Ej1.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\bin\Debug\TP_1_Ej1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\bin\Debug\TP_1_Ej1.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\obj\Debug\TP_1_Ej1.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\obj\Debug\TP_1_Ej1.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1\obj\Debug\TP_1_Ej1.pdb

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_Recursion", "Ej_Recursion\Ej_Recursion.csproj", "{43F28A92-97A4-4B91-B6C9-7F2E3A0C1084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_Recursico_2", "Ej_Recursico_2\Ej_Recursico_2.csproj", "{6E3CE2BE-6468-4F37-B12D-3E28FB1BC386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F28A92-97A4-4B91-B6C9-7F2E3A0C1084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F28A92-97A4-4B91-B6C9-7F2E3A0C1084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F28A92-97A4-4B91-B6C9-7F2E3A0C1084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F28A92-97A4-4B91-B6C9-7F2E3A0C1084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3CE2BE-6468-4F37-B12D-3E28FB1BC386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3CE2BE-6468-4F37-B12D-3E28FB1BC386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3CE2BE-6468-4F37-B12D-3E28FB1BC386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3CE2BE-6468-4F37-B12D-3E28FB1BC386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

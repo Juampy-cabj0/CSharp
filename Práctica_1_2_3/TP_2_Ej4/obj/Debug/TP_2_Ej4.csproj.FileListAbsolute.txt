@@ -1,0 +1,10 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_2_Ej4\bin\Debug\TP_2_Ej4.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_2_Ej4\bin\Debug\TP_2_Ej4.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_2_Ej4\bin\Debug\TP_2_Ej4.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_2_Ej4\obj\Debug\TP_2_Ej4.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_2_Ej4\obj\Debug\TP_2_Ej4.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_2_Ej4\bin\Debug\TP_2_Ej4.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_2_Ej4\bin\Debug\TP_2_Ej4.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_2_Ej4\bin\Debug\TP_2_Ej4.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_2_Ej4\obj\Debug\TP_2_Ej4.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_2_Ej4\obj\Debug\TP_2_Ej4.pdb

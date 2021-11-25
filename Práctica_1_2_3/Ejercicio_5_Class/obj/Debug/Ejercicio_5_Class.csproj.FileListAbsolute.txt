@@ -1,0 +1,10 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\Ejercicio_5_Class\obj\Debug\Ejercicio_5_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\Ejercicio_5_Class\obj\Debug\Ejercicio_5_Class.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejercicio_5_Class\bin\Debug\Ejercicio_5_Class.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejercicio_5_Class\obj\Debug\Ejercicio_5_Class.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejercicio_5_Class\obj\Debug\Ejercicio_5_Class.pdb

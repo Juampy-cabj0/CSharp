@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\obj\Debug\Clase Mascota.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\bin\Debug\Clase Mascota.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\bin\Debug\Clase Mascota.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\bin\Debug\Clase Mascota.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\obj\Debug\Clase Mascota.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Clase Mascota\Clase Mascota\obj\Debug\Clase Mascota.pdb

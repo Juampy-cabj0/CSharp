@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\bin\Debug\Ejemplo_Suma_Matriz_Diag.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\bin\Debug\Ejemplo_Suma_Matriz_Diag.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\bin\Debug\Ejemplo_Suma_Matriz_Diag.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\obj\Debug\Ejemplo_Suma_Matriz_Diag.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\obj\Debug\Ejemplo_Suma_Matriz_Diag.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\Ejemplo_Suma_Matriz_Diag\obj\Debug\Ejemplo_Suma_Matriz_Diag.pdb

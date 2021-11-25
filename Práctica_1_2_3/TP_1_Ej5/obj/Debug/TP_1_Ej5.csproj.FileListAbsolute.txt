@@ -1,0 +1,10 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1_Ej5\bin\Debug\TP_1_Ej5.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1_Ej5\bin\Debug\TP_1_Ej5.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1_Ej5\bin\Debug\TP_1_Ej5.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1_Ej5\obj\Debug\TP_1_Ej5.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1\TP_1_Ej5\obj\Debug\TP_1_Ej5.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1_Ej5\bin\Debug\TP_1_Ej5.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1_Ej5\bin\Debug\TP_1_Ej5.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1_Ej5\bin\Debug\TP_1_Ej5.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1_Ej5\obj\Debug\TP_1_Ej5.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_1_2_3\TP_1_Ej5\obj\Debug\TP_1_Ej5.pdb

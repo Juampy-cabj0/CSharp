@@ -1,0 +1,6 @@
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\obj\Debug\Práctica_6.csprojResolveAssemblyReference.cache
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\bin\Debug\Práctica_6.exe.config
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\bin\Debug\Práctica_6.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\bin\Debug\Práctica_6.pdb
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\obj\Debug\Práctica_6.exe
+C:\Users\mansi\OneDrive\Documentos\SharpDevelop Projects\Práctica_6\Práctica_6\obj\Debug\Práctica_6.pdb
