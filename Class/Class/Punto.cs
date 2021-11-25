@@ -2,9 +2,6 @@
 
 namespace Class
 {
-	/// <summary>
-	/// Description of Punto.
-	/// </summary>
 	public class Punto
 	{
 		private double x;
