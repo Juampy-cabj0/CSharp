@@ -1,0 +1,265 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Proyecto_2_Clinica
+{
+    class Medico
+    {
+        private string nombre;
+        private string apellido;
+        private int dni;
+        private int matricula;
+        private Turno turnos;
+        private Turno[] turnosDias;
+        private ArrayList listaPacientes;
+        
+
+        public Medico(string xNom, string xApell, int xDni, int xMatricula)
+        {
+            nombre = xNom;
+            apellido = xApell;
+            dni = xDni;
+            matricula = xMatricula;
+            turnosDias = new Turno[9];
+            listaPacientes = new ArrayList();
+
+            for (int i = 0; i < 9; i++)
+            { //Se inicializa el arreglo de turnos
+                Turno turnosInciales = new Turno(" ", 0);
+                turnosDias[i] = turnosInciales;
+            }
+            (turnosDias[0]).Hora = "08:00";
+            (turnosDias[1]).Hora = "08:30";
+            (turnosDias[2]).Hora = "09:00";
+            (turnosDias[3]).Hora = "09:30";
+            (turnosDias[4]).Hora = "10:00";
+            (turnosDias[5]).Hora = "10:30";
+            (turnosDias[6]).Hora = "11:00";
+            (turnosDias[7]).Hora = "11:30";
+            (turnosDias[8]).Hora = "12:00";
+
+        }
+
+        public string Nombre
+        {
+            set { nombre = value; }
+            get { return nombre; }
+        }
+        public int Dni
+        {
+            set { dni = value; }
+            get { return dni; }
+        }
+        public int Matricula
+        {
+            set { matricula = value; }
+            get { return matricula; }
+        }
+        public ArrayList ListaPac
+        {
+            set { listaPacientes = value; }
+            get { return listaPacientes; }
+        }
+        public Turno[] Turno
+        {
+            set { turnosDias = value; }
+            get { return turnosDias; }
+        }
+
+
+
+        public void darTurno(string nom_apePac, int dni, string unaHora)
+        {
+            bool ocupado = false;
+            turnos = new Turno();
+            turnos.Hora = unaHora;
+            turnos.NombrePac = nom_apePac;
+            turnos.Dni = dni;
+
+            foreach  (Turno elemento in turnosDias)
+            {
+                if (elemento.Dni == dni)
+                {
+                    ocupado = true;
+                    break;
+                }
+            }
+
+            if (ocupado)
+            {
+                Console.WriteLine("El paciente ya cuenta con un turno.");
+            }
+            else
+            {
+                switch (unaHora)
+                {
+                    case "08:00":
+                        turnosDias[0] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "08:30":
+                        turnosDias[1] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "09:00":
+                        turnosDias[2] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "09:30":
+                        turnosDias[3] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "10:00":
+                        turnosDias[4] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "10:30":
+                        turnosDias[5] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "11:00":
+                        turnosDias[6] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "11:30":
+                        turnosDias[7] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    case "12:00":
+                        turnosDias[8] = turnos;
+                        Console.WriteLine("\nEl turno ha sido registrado correctamente.\n");
+                        break;
+
+                    default:
+                        Console.WriteLine("\nHORAIO FUERA DE RANGO O FORMATO INCORRECTO!!!\n\n" +
+                            "Verifique cual es el error.\n");
+                        break;
+                }
+
+            }
+
+        }
+
+        public void actDiagPac(int xDni, string diag)
+        {
+
+            foreach (Paciente elemento in listaPacientes)
+            {
+                if (elemento.Dni == xDni)
+                {
+                    if (elemento.Diagnostico != diag)
+                    {
+                        elemento.Diagnostico = diag;
+
+                    }
+                }
+            }
+        }
+
+        public void cancelarTurno(string unaHora)
+        {
+            foreach (Turno elemento in turnosDias)
+            {
+                if (elemento.Hora == unaHora)
+                {
+                    elemento.NombrePac = "";
+                    elemento.Dni = 0;
+                }
+            }
+
+        }
+
+        public Turno verTurno(int i)
+        {
+            return turnosDias[i];
+        }
+
+        public Turno[] listaDeTurnos()
+        {
+            return turnosDias;
+
+        }
+
+        public void agregarPac(Paciente unPac, int xDni)
+        {
+            bool existe = false;
+
+            foreach  (Paciente elemento in listaPacientes)
+            {
+                if (elemento.Dni == xDni )
+                {
+                    existe = true;
+                    break;
+                }
+            }
+
+            if (existe)
+            {
+                Console.WriteLine("El paciente ya existe en la base de datos.");
+            }
+            else
+            {
+                listaPacientes.Add(unPac);
+                Console.WriteLine("El paciente fue regristrado correctamente en la base de datos.");
+            }
+            
+        }
+
+        public void eliminarPac(Paciente unPac)
+        {
+            foreach  (Paciente elemento in listaPacientes)
+            {
+                if (elemento == unPac)
+                {
+                    listaPacientes.Remove(unPac);
+                    Console.WriteLine("El paciente ingresado fue eliminado de la base de datos con exito.");
+                }
+                else
+                {
+                    Console.WriteLine("El paciente ingresado no se encuentra en la base de datos.");
+                }
+            }
+
+        }
+
+        public int totalPac()
+        {
+            return listaPacientes.Count;
+        }
+
+        public Paciente verPac(int j)
+        {
+            return (Paciente)listaPacientes[j];
+        }
+
+        public ArrayList todosPac()
+        { 
+            return listaPacientes;
+        }
+
+        public void esPaciente(Paciente unPac)
+        {
+
+        }
+
+        //public override string ToString()
+        //{
+        //    string aux = nombre;
+        //    return aux;
+        //}
+
+
+    }
+
+
+}

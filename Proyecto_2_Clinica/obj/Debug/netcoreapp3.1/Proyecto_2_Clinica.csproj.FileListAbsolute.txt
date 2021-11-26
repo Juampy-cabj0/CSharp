@@ -1,0 +1,13 @@
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.exe
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.deps.json
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.runtimeconfig.json
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.runtimeconfig.dev.json
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.dll
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\bin\Debug\netcoreapp3.1\Proyecto_2_Clinica.pdb
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.AssemblyInfoInputs.cache
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.AssemblyInfo.cs
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.csproj.CoreCompileInputs.cache
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.dll
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.pdb
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.genruntimeconfig.cache
+C:\Users\mansi\source\repos\Proyecto_2_Clinica\obj\Debug\netcoreapp3.1\Proyecto_2_Clinica.csproj.AssemblyReference.cache
