@@ -107,7 +107,6 @@ namespace Proyecto_1
 			{
 				listaExpedientes.Add(unExp);
 				Console.WriteLine("\nEl expediente fue ingresado con éxito\n");
-				
 			}
 		}
 		
@@ -183,7 +182,6 @@ namespace Proyecto_1
 						
 						ab.CantExpAsig += 1;
 						break;
-						
 					}
 					catch (LimiteDeExpedientes)
 					{
@@ -193,10 +191,37 @@ namespace Proyecto_1
 			}
 		}
 		
+		public int cantExpeACargo(int dni)
+		{
+			int resultado = 0;
+			
+			if (listaAbogados.Count != 0)
+			{
+				foreach (Abogado ab in listaAbogados)
+				{
+					if (ab.Dni == dni)
+					{
+						resultado = ab.CantExpAsig;
+					}
+				}
+			}
+			return resultado;
+		}
 		
 		public ArrayList listadoExp()
 		{
 			return listaExpedientes;
+		}
+		
+		public void mostrarExp(int dni)
+		{
+			foreach (Expediente exp in listaExpedientes)
+			{
+				if (exp.AbogadoAcargo.Dni == dni)
+				{
+					Console.WriteLine(exp);
+				}
+			}
 		}
 	}
 }

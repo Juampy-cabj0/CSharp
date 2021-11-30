@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Proyecto_1
 {
@@ -7,7 +8,7 @@ namespace Proyecto_1
 		public static void Main(string[] args)
 		{
 			// Variables de Abogado //
-			string nomYape, especialidad, especialidadExp;
+			string nomYape, especialidad;
 			int dni;
 			
 			// Variables de Expediente //
@@ -46,10 +47,73 @@ namespace Proyecto_1
 						break;
 						
 					case "2":
+						Console.WriteLine("\n !ATENCIÓN!\n" +
+						                  "\nLuego de eliminar el Abogado, debe reasignar un nuevo Abogado a los Expedientes a cargo de este\n");
+						
 						Console.Write("Ingrese el DNI del abogado que desea eliminar: ");
 						dni = int.Parse(Console.ReadLine());
 						
-						e.eliminarAbogado(dni);
+						int cantExpe = e.cantExpeACargo(dni);
+						
+						if (e.listadoAbogados().Count != 0 && cantExpe > 0)
+						{
+							Console.WriteLine("\nExpedientes a cargo del Abogado que desea eliminar:\n");
+							
+							e.mostrarExp(dni);
+							
+							Console.Write("\nIngrese el número del Expediente para asignar un nuevo Abogado: ");
+							int numExp = int.Parse(Console.ReadLine());
+							int cont = 0;
+							
+							while (cont < cantExpe)
+							{
+								
+								foreach (Expediente exp in e.listadoExp())
+								{
+									if (exp.Numero == numExp)
+									{
+										Console.WriteLine("\nLista de Abogados disponibles: \n");
+										
+										foreach (Abogado ab in e.listadoAbogados())
+										{
+											if (ab.Dni != dni)
+											{
+												Console.WriteLine(ab);
+											}
+										}
+									}
+								}
+								
+								Console.Write("DNI del Abogado que desea asignarle al Expediente: ");
+								int dniNuevo = int.Parse(Console.ReadLine());
+								
+								foreach (Abogado abo in e.listadoAbogados())
+								{
+									if (abo.Dni == dniNuevo)
+									{
+										foreach (Expediente expe in e.listadoExp())
+										{
+											expe.AbogadoAcargo = abo;
+											e.sumarExpAbogado(dniNuevo);
+											Console.WriteLine("\nEl nuevo Abogado ha sido asignado con éxito\n");
+											break;
+										}
+										break;
+									}
+									break;
+								}
+								cont++;
+								Console.Write("\nIngrese el número del siguiente Expediente: ");
+								numExp = int.Parse(Console.ReadLine());
+							}
+						}
+						
+						else
+						{
+							Console.WriteLine("\nEl Abogado ingresado no poseé Expedientes a Cargo\n");
+							e.eliminarAbogado(dni);
+						}
+						
 						break;
 						
 					case "3":
@@ -81,20 +145,17 @@ namespace Proyecto_1
 								Console.WriteLine(ab);
 							}
 							
+							Console.Write("Ingrese el DNI del Abogado que desea asignarle el Expediente: ");
+							dni = int.Parse(Console.ReadLine());
+							
 							foreach (Abogado ab in e.listadoAbogados())
 							{
-								Console.Write("Ingrese el DNI del Abogado que desea asignarle el Expediente: ");
-								dni = int.Parse(Console.ReadLine());
-								
 								if (ab.Dni == dni)
 								{
 									e.agregarExpediente(new Expediente(nroExp, titular, tipoTramite, estado, ab));
 									e.sumarExpAbogado(dni);
-									break;
 								}
-								break;
 							}
-							
 						}
 						
 						else
