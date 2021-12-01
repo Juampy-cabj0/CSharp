@@ -43,6 +43,7 @@ namespace Proyecto_1
 			set { cantExpAsig = value; }
 		}
 		
+		// Sobreescribo Equals para comparar dos Objetos iguales Atributos //
 		public override bool Equals(object obj)
 		{
 			Abogado other = obj as Abogado;
@@ -63,6 +64,7 @@ namespace Proyecto_1
 			return this.dni == other.dni;
 		}
 		
+		// Sobreescribo el ToString para mostrar el Objeto //
 		public override string ToString()
 		{
 			return string.Format("\nNombre y Apellido: {0}\n" +

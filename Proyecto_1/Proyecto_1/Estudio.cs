@@ -5,23 +5,28 @@ namespace Proyecto_1
 {
 	public class Estudio
 	{
+		// Atributos //
 		private string nombreEstudio;
 		private ArrayList listaAbogados;
 		private ArrayList listaExpedientes;
 		
+		// Constructor //
 		public Estudio(string nombreEstudio)
 		{
 			this.nombreEstudio = nombreEstudio;
 			listaAbogados = new ArrayList(5);
 			listaExpedientes = new ArrayList();
 		}
-
+		
+		// Propiedad //
 		public string NombreEstudio
 		{
 			get { return nombreEstudio; }
 			set { nombreEstudio = value; }
 		}
 		
+		// Agrego Abogados a la lista //
+		// Levanto un Excepcion cuando supera el limite de Abogados permitido //
 		public void agregarAbogado(Abogado abogado)
 		{
 			bool existe = false;
@@ -57,6 +62,7 @@ namespace Proyecto_1
 			}
 		}
 		
+		// Elimino un Abogado de la lista y de los Expedientes //
 		public void eliminarAbogado(int dni)
 		{
 			bool existe = false;
@@ -82,12 +88,13 @@ namespace Proyecto_1
 					Console.WriteLine("\nEl abogado no existe en la base de datos\n");
 			}
 		}
-		
+		// Retorno la lista de Abogados //
 		public ArrayList listadoAbogados()
 		{
 			return listaAbogados;
 		}
 		
+		// Agrego un Expediente a la lista //
 		public void agregarExpediente(Expediente unExp)
 		{
 			bool existeExp = false;
@@ -114,6 +121,7 @@ namespace Proyecto_1
 			}
 		}
 		
+		// Modifico el Estado de un Expediente //
 		public void modificarEstadoExp(int numExp, string estado)
 		{
 			bool existe = false;
@@ -139,6 +147,7 @@ namespace Proyecto_1
 			}
 		}
 		
+		// Elimino un Expediente solicitado //
 		public void eliminarExp(int numExp)
 		{
 			foreach (Expediente exp in listaExpedientes)
@@ -154,6 +163,7 @@ namespace Proyecto_1
 			
 		}
 		
+		// Resto un Expediente asignado a un Abogado luego de ser eliminado //
 		public void restarExpAbogado(int dni)
 		{
 			foreach (Abogado ab in listaAbogados)
@@ -170,9 +180,10 @@ namespace Proyecto_1
 			}
 		}
 		
+		// Incremento la cantidad de Expedientes asignados a un Abogado // 
+		// En caso de superar el máximo de 6 Expedientes asignados, levanto una Excepción //
 		public void sumarExpAbogado(int dni)
 		{
-			
 			foreach (Abogado ab in listaAbogados)
 			{
 				if (ab.Dni == dni)
@@ -195,6 +206,7 @@ namespace Proyecto_1
 			}
 		}
 		
+		// Retorno la cantidad de Expedientes asignados de un Abogado //
 		public int cantExpeACargo(int dni)
 		{
 			int resultado = 0;
@@ -212,12 +224,13 @@ namespace Proyecto_1
 			return resultado;
 		}
 		
+		// Retorno la lista de Expedientes //
 		public ArrayList listadoExp()
 		{
 			return listaExpedientes;
 		}
 		
-		// Asigno valores
+		// Asigno valores predeterminados a los Expedientes del Abogado eliminado //
 		public void eliminarAbogadoDelExp(int dni)
 		{
 			foreach (Expediente exp in listaExpedientes)
