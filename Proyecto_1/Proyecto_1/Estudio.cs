@@ -65,6 +65,7 @@ namespace Proyecto_1
 				if (ab.Dni == dni)
 				{
 					existe = true;
+					eliminarAbogadoDelExp(ab.Dni);
 					listaAbogados.Remove(ab);
 					Console.WriteLine("\nEl abogado fue eliminado con éxito\n");
 					break;
@@ -105,8 +106,11 @@ namespace Proyecto_1
 			
 			if (!existeExp)
 			{
-				listaExpedientes.Add(unExp);
-				Console.WriteLine("\nEl expediente fue ingresado con éxito\n");
+				if (unExp.AbogadoAcargo.CantExpAsig < 6)
+				{
+					listaExpedientes.Add(unExp);
+					Console.WriteLine("\nEl expediente fue ingresado con éxito\n");
+				}
 			}
 		}
 		
@@ -142,7 +146,7 @@ namespace Proyecto_1
 				if (exp.Numero == numExp)
 				{
 					restarExpAbogado(exp.AbogadoAcargo.Dni);
-					listaAbogados.Remove(exp);
+					listaExpedientes.Remove(exp);
 					Console.WriteLine("\nEl expediente se elimino con éxito\n");
 					break;
 				}
@@ -213,13 +217,17 @@ namespace Proyecto_1
 			return listaExpedientes;
 		}
 		
-		public void mostrarExp(int dni)
+		// Asigno valores
+		public void eliminarAbogadoDelExp(int dni)
 		{
 			foreach (Expediente exp in listaExpedientes)
 			{
 				if (exp.AbogadoAcargo.Dni == dni)
 				{
-					Console.WriteLine(exp);
+					exp.AbogadoAcargo.NomYape = " ";
+					exp.AbogadoAcargo.Dni = 0;
+					exp.AbogadoAcargo.Especialidad = " ";
+					exp.AbogadoAcargo.CantExpAsig = 0;
 				}
 			}
 		}

@@ -48,72 +48,56 @@ namespace Proyecto_1
 						
 					case "2":
 						Console.WriteLine("\n !ATENCIÓN!\n" +
-						                  "\nLuego de eliminar el Abogado, debe reasignar un nuevo Abogado a los Expedientes a cargo de este\n");
+						                  "\nLuego de eliminar el Abogado, debe reasignar un nuevo Abogado a los Expedientes\n");
 						
 						Console.Write("Ingrese el DNI del abogado que desea eliminar: ");
 						dni = int.Parse(Console.ReadLine());
 						
-						int cantExpe = e.cantExpeACargo(dni);
+						int cantExp = e.cantExpeACargo(dni);
+						e.eliminarAbogado(dni);
 						
-						if (e.listadoAbogados().Count != 0 && cantExpe > 0)
+						if (e.listadoAbogados().Count != 0)
 						{
-							Console.WriteLine("\nExpedientes a cargo del Abogado que desea eliminar:\n");
-							
-							e.mostrarExp(dni);
-							
-							Console.Write("\nIngrese el número del Expediente para asignar un nuevo Abogado: ");
-							int numExp = int.Parse(Console.ReadLine());
-							int cont = 0;
-							
-							while (cont < cantExpe)
+							Console.WriteLine("\nExpedientes sin un Abogado asignado:\n");
+							foreach (Expediente exp in e.listadoExp())
 							{
+								if (exp.AbogadoAcargo.NomYape == " " && exp.AbogadoAcargo.Dni == 0)
+								{
+									Console.WriteLine(exp);
+								}
+							}
+							int cont = 0;
+							while (cont < cantExp)
+							{
+								Console.Write("\nIngrese el Número de Expediente: ");
+								nroExp = int.Parse(Console.ReadLine());
 								
 								foreach (Expediente exp in e.listadoExp())
 								{
-									if (exp.Numero == numExp)
+									if (exp.Numero == nroExp)
 									{
-										Console.WriteLine("\nLista de Abogados disponibles: \n");
+										foreach (Abogado ab in e.listadoAbogados())
+										{
+											Console.WriteLine(ab);
+										}
+										
+										Console.Write("Ingrese el DNI del Abogado para asignarlo al Expediente: ");
+										dni = int.Parse(Console.ReadLine());
 										
 										foreach (Abogado ab in e.listadoAbogados())
 										{
-											if (ab.Dni != dni)
+											if (ab.Dni == dni)
 											{
-												Console.WriteLine(ab);
+												e.sumarExpAbogado(dni);
+												exp.AbogadoAcargo = ab;
+												Console.WriteLine("\nEl nuevo Abogado ha sido asignado con éxito\n");
 											}
 										}
 									}
 								}
-								
-								Console.Write("DNI del Abogado que desea asignarle al Expediente: ");
-								int dniNuevo = int.Parse(Console.ReadLine());
-								
-								foreach (Abogado abo in e.listadoAbogados())
-								{
-									if (abo.Dni == dniNuevo)
-									{
-										foreach (Expediente expe in e.listadoExp())
-										{
-											expe.AbogadoAcargo = abo;
-											e.sumarExpAbogado(dniNuevo);
-											Console.WriteLine("\nEl nuevo Abogado ha sido asignado con éxito\n");
-											break;
-										}
-										break;
-									}
-									break;
-								}
-								cont++;
-								Console.Write("\nIngrese el número del siguiente Expediente: ");
-								numExp = int.Parse(Console.ReadLine());
+								cont = cont + 1;
 							}
 						}
-						
-						else
-						{
-							Console.WriteLine("\nEl Abogado ingresado no poseé Expedientes a Cargo\n");
-							e.eliminarAbogado(dni);
-						}
-						
 						break;
 						
 					case "3":
@@ -136,7 +120,7 @@ namespace Proyecto_1
 						Console.Write("Ingrese el Estado del Expediente: ");
 						estado = Console.ReadLine();
 						
-						if (e.listadoAbogados().Count != 0)
+						if (e.listadoAbogados().Count != 0 )
 						{
 							Console.WriteLine("\nLista de Abogado para asignar al Expediente:\n");
 							
@@ -178,7 +162,13 @@ namespace Proyecto_1
 					case "6":
 						Console.Write("\nIngrese el Número de Expediente que desea Eliminar: ");
 						nroExp = int.Parse(Console.ReadLine());
-						e.eliminarExp(nroExp);
+						if (e.listadoExp().Count != 0)
+						{
+							e.eliminarExp(nroExp);
+						}
+						else
+							Console.WriteLine("\nLista de Expedientes vacía\n");
+						
 						break;
 						
 					case "7":
@@ -195,7 +185,7 @@ namespace Proyecto_1
 						continue;
 						
 					default:
-						Console.WriteLine("Opción Incorrecta!\n" +
+						Console.WriteLine("\nOpción Incorrecta!\n" +
 						                  "\nIngrese la Opción Númerica correctamente\n");
 						break;
 				}
@@ -209,16 +199,9 @@ namespace Proyecto_1
 				}
 				else
 					Console.Write("\n*********************************************************\n");
-				
 			}
 			
-			while(resp == "s");
-			
-			
-			
-			
-			
-			
+			while(resp != "n");
 			
 			
 			Console.Write("\nPress any key to continue . . . ");
